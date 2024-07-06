@@ -7,7 +7,8 @@ import time
 import micropython
 import network
 from umqtt.simple import MQTTClient
-
+#para testear hagan un dashboard en adafruit con un telcado y un led
+#en este caso el teclado es el topic_ingreso y el led es el topic_led. tener en cuenta al conectar
 #Indicamos red WIFI y clave
 ssid = 'Wokwi-GUEST'
 wifipassword = ''
@@ -267,7 +268,7 @@ wokwi.com/projects/379581547070731265
 '''
 '''
 menu y logica del programa sin adafruit. Con pad fisico
-pad.inicio()
+pad.inicio() #usar al inicio para iniciar los pines del pad
 #constantes para el keypad
     Tecla_Arriba   = const(0)
     Tecla_Abajo = const(1)
