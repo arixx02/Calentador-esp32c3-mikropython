@@ -10,22 +10,18 @@ from umqtt.simple import MQTTClient
 #para testear hagan un dashboard en adafruit con un telcado y un led
 #en este caso el teclado es el topic_ingreso y el led es el topic_led. tener en cuenta al conectar
 #Indicamos red WIFI y clave
-ssid = 'Wokwi-GUEST'
+ssid = 'Wokwi-GUEST'#red wifi para simular en wokwi
 wifipassword = ''
 #Datos Server MQTT (Broker)
 #Indicamos datos MQTT Broker (server y puerto)
 mqtt_server = 'io.adafruit.com'
 port = 1883
-user = 'arixx_02' #definido en adafruit
+user = '' #definido en adafruit
 password = '' #key adafruit
 #Indicamos ID(unico) y topicos
-client_id = 'proyecto_DEBRITO'
-topic_ingreso = 'arixx_02/feeds/Teclado'
-topic_Led='arixx_02/feeds/LED'
-#Usamos una variable para definir si el led esta activo
-calentador_ACTIVO=False
-#variable para el valor del teclado
-LEDESTADO = Pin(0,Pin.OUT)
+client_id = ''#aca va el nombre de usuario de adafruit
+topic_ingreso = ''#aca va el path al feed respectivo
+topic_Led=''
 
 #Definimos modo Station (conectarse a Access Point remoto)
 sta_if = network.WLAN(network.STA_IF)
