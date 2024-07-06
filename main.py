@@ -16,7 +16,7 @@ wifipassword = ''
 mqtt_server = 'io.adafruit.com'
 port = 1883
 user = 'arixx_02' #definido en adafruit
-password = 'aio_wtlR54QqLnEIVGGr36mkILuSvQIL' #key adafruit
+password = '' #key adafruit
 #Indicamos ID(unico) y topicos
 client_id = 'proyecto_DEBRITO'
 topic_ingreso = 'arixx_02/feeds/Teclado'
